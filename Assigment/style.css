@@ -13,7 +13,7 @@
     
     }
     .link{
-
+       
         color: rgb(17, 54, 72);
         font-size: 17px;
         gap: 20px;
@@ -35,6 +35,10 @@
         flex-grow: 1;
         
         
+    }
+    
+    text1{
+
     }
    
     
