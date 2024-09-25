@@ -47,14 +47,19 @@ align-items: flex-start;
 
        
     }
-    #button1{
-        border: 3px solid;
-        margin-left: 50px;
+    .button{
         color:aliceblue;
         background-color: rgb(17, 54, 72);
         width: 90px;
         height: 30px;
         border-radius: 10px;
+    }
+        
+    
+    #button1{
+        
+        margin-left: 50px;
+       
        
 
     }
@@ -186,3 +191,44 @@ margin-left: 220px;
     font-weight: bold;
     align-items: end;
 } 
+
+
+/*
+
+
+
+*/
+
+.section4{
+  margin: 50px auto; 
+    display: flex;
+    background-color:rgb(251, 251, 251);
+    width:70%;
+    height: 200px;
+
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+align-items:flex-start;
+}
+#text14{
+    color: rgb(41, 80, 95);
+   font-size: 25px;
+   font-weight: bold;
+    margin-left: 50px;
+
+    
+}
+#text24{
+    color: rgb(41, 80, 95);
+   
+    margin-left: 50px;
+}
+#button2{
+
+   align-self: flex-end;
+ 
+    margin-right: 50px;
+
+}
+
