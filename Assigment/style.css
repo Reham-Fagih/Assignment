@@ -99,16 +99,32 @@ align-items: flex-start;
     
 
     .section2{
-
-        display: flex;
-        
-    justify-content:center;
-       gap: 15px;
-        
+     justify-content: center;
+     display: flex;
+    gap: 15px;
         
         
         }
+        .section22{
+        display: flex;  
+        gap: 15px;
+        justify-content: center;
+        
+        }
+.pb{
 
+    width: 180px;
+    height: 100px;
+   
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    justify-content:space-between
+   
+
+}
     
     body{
 
@@ -132,13 +148,14 @@ align-items: flex-start;
     
         color: rgb(41, 80, 95);
         font-weight:bold;
-        width: 100px;
-        height: 70px;
+        width: 180px;
+        height: 100px;
         font-size: 25px;
         text-align: center;
         border-radius: 10px;
         background-color:aliceblue;
-        padding:40px;
+        justify-content:space-between
+       
         }
     
 .section3{
