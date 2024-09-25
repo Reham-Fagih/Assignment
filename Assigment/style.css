@@ -193,13 +193,9 @@ margin-left: 220px;
 } 
 
 
-/*
-
-
-
-*/
 
 .section4{
+    border-radius: 10px;
   margin: 50px auto; 
     display: flex;
     background-color:rgb(251, 251, 251);
@@ -230,5 +226,19 @@ align-items:flex-start;
  
     margin-right: 50px;
 
+
 }
+
+.footer{
+    color:  rgb(41, 80, 95);;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color:aliceblue; 
+    height: 50px; 
+    width: 100%; 
+    text-align: center;
+
+}
+
 
